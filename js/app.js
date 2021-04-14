@@ -1,7 +1,7 @@
 alert('Welcome to  the Jungle');
 var typeOfUser = "lover"
 var typeOfUser ="hater"
-var typeOfUser = prompt('Who are you "lover" OR "Hater"?');
+var typeOfUser = prompt('Who are you "lover" OR "hater"?');
 if (typeOfUser =="lover")
 {
   console.log ('You are lovely')
