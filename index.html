@@ -67,14 +67,36 @@
 </main>
 
 
+<p>Click the button to display a surprize .</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var r = confirm(" 'Ok' for lover and 'cancel' for heater");
+  if (r == true) {
+    txt = "You need to have a pet";
+  } else {
+    txt = "Try to play with pet";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+
+
+
+
+
+
+
+<script src="js/app.js"></script>
+</body>
 
 <footer>
   <p> Copyright for Laith Hayajneh</p>
 </footer>
-
-
-
-
-
-</body>
 </html>
