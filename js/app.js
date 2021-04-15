@@ -25,7 +25,7 @@ if (typeOfUser =='lover')
   document.write(image2);
 }
 var FAV= prompt ('Enter your favorite animals')
-document.write ('your favorite animals is '+ FAV + '   .  ');
+document.write ('<p>your favorite animals is '+ FAV + '   .</p>');
 
 
 
@@ -35,6 +35,21 @@ if (name == 'yes' )
 
   document.write  ('Cats conserve energy by sleeping for an average of 13 to 14 hours a day.')
   
+}
+
+var userchoice =prompt('Do you have a pet , yes OR no ');
+while (userchoice !== 'yes' && userchoice !== 'no'){
+  userchoice = prompt('Do you have a pet , yes OR no')
+};
+if (userchoice == 'no'){
+  document.write ('<p>Some day you will love it </p>')
+} else if (userchoice == "yes"){
+var numberOfPet =prompt('please enter the number of pet');
+console.log('numberOfPet')
+for ( var i = 0 ; i < numberOfPet;i++){
+ var image3 ='<img src="img/pet.jpg" alt= "hater"/>'; 
+ document.write(image3);
+ }
 }
 
 
