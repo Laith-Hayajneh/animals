@@ -51,7 +51,8 @@ for ( var i = 0 ; i < numberOfPet;i++){
  var image3 ='<img src="img/pet.jpg" alt= "hater"/>'; 
  document.write(image3);
  }
-}
+};
+
 
 
 
