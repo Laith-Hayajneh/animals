@@ -25,33 +25,53 @@
 //   var image2 ='<img src="img/hater.jpg" alt= "hater"/>'; 
 //   document.write(image2);
 // }
-var fav = prompt ('Enter your favorite animals')
-if (fav !== ''){
-  document.write('<p>your favorite animals is '+ fav + '   .</p>')};
+// var fav = prompt ('Enter your favorite animals')
+// if (fav !== ''){
+//   document.write('<p>your favorite animals is '+ fav + '   .</p>')};
 
 
 
-var name = prompt('Do you want information about cat plese confirm with yes OR no');
-if (name == 'yes' ){
-  document.write('<p>Cats conserve energy by sleeping for an average of 13 to 14 hours a day.</P>')
+// var name = prompt('Do you want information about cat plese confirm with yes OR no');
+// if (name == 'yes' ){
+//   document.write('<p>Cats conserve energy by sleeping for an average of 13 to 14 hours a day.</P>')
  
+// }
+
+// var userchoice =prompt('Do you have a pet , yes OR no ');
+// while (userchoice !== 'yes' && userchoice !== 'no'){
+//   userchoice = prompt('Do you have a pet , yes OR no')
+// };
+// if (userchoice == 'no'){
+//   document.write ('<p>Some day you will love it </p>')
+// } else if (userchoice == "yes"){
+// var numberOfPet =prompt('please enter the number of pet');
+// console.log('numberOfPet' + numberOfPet)
+
+
+
+// for ( var i = 0 ; i < numberOfPet;i++){
+//  var image3 ='<img src="img/pet.jpg" alt= "hater"/>'; 
+//  document.write(image3);
+//  }
+// };
+
+
+// function decleration
+function type(birds){
+  var birdType = prompt('Do you want to see '+ birds + '?');
+
 }
+type('eagle');
+type('parrot');
+// function expression
+var animalType = function (){
+  var q = prompt('Do you want to see dangerous animals ?');
+  return q;
+}
+var lion=animalType ();
 
-var userchoice =prompt('Do you have a pet , yes OR no ');
-while (userchoice !== 'yes' && userchoice !== 'no'){
-  userchoice = prompt('Do you have a pet , yes OR no')
-};
-if (userchoice == 'no'){
-  document.write ('<p>Some day you will love it </p>')
-} else if (userchoice == "yes"){
-var numberOfPet =prompt('please enter the number of pet');
-console.log('numberOfPet')
-for ( var i = 0 ; i < numberOfPet;i++){
- var image3 ='<img src="img/pet.jpg" alt= "hater"/>'; 
- document.write(image3);
- }
-};
+console.log (lion);
 
 
 
-
+/////
